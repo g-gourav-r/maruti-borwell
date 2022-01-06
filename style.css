@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200&display=swap');
+body{background-color: #33343F;
+    color: white;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-family: 'Bitter', serif;
+}
+#top{
+    text-align: center;
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .navbar{
     display: flex;
     justify-content: center;
@@ -30,4 +46,38 @@
     color: whitesmoke;
     box-shadow: 0 0 10px white ;
 }
-
+.main{
+    padding-bottom: 2px;
+    border-bottom: 1px solid rgb(160, 211, 241);
+}
+.aboutcont{
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    float: ;
+    text-align: center;
+}
+.about{
+    border:solid 1px white;
+}
+.whoweare{
+    padding:3px;
+    border:solid 1px white ;
+}
+.contact{
+    border:solid 1px white ;
+}
+.item{ border:solid 1px white ;
+display: inline;
+height: 200px;
+}
+.well{ border:solid 1px red ;
+    
+width: 48vh;
+margin-left: 15px;}
+.drill{ border:solid 1px red ;
+    width: 48vh;
+ 
+    margin-left: 15px;}
